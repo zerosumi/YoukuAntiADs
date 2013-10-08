@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "description":  "Youku Tudou iQiyi Letv Ku6 remove ads",
-    "name":         "Youku Anti ADs",
-    "version":      "2.0.1008",
+    "description":  "开源的乐视，优酷，土豆，爱奇艺，酷六去广告插件（轻量版）",
+    "name":         "Green.Player.Lite",
+    "version":      "2.1.1009",
     "icons": {
 		"16": "icon16.png",
 		"48": "icon48.png",
