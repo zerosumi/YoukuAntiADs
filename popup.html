@@ -43,20 +43,20 @@ button {
 	-webkit-transition: all .1s;
 }
 
-button.linkleft {
+#plenable {
 	width: 67px;
 	margin: 4px 5px 4px 10px;
 }
 
-button.linkright {
+#pldisable {
 	width: 67px;
 	margin: 4px 10px 4px 5px;
 }
-button.red:hover{
+#pldisable:hover, .disabled{
 	background-color: #FF0033;
 	background-image: -webkit-linear-gradient(top, #FF0000, #FF0033);
 }
-button.green:hover{
+#plenable:hover, .enabled{
 	background-color: #00cc77;
 	background-image: -webkit-linear-gradient(top, #00cc44, #00cc77);
 }
@@ -76,12 +76,9 @@ button:active {
 	box-shadow: inset 0 2px 4px 0px rgba(0, 0, 0, 0.15), 0 1px 2px 0px
 		rgba(0, 0, 0, 0.05)
 }
-
-.red {
-	color: red;
-}
-.green {
-	color: #3ADF00;
+abbr {
+cursor: help;
+border-bottom: 1px dotted #999;
 }
 </style>
 <script src="jquery.js"></script>
@@ -89,17 +86,20 @@ button:active {
 </head>
 
 <body>
-	<label class="normal">Current: </label>
+	<!-- 
+	<label class="normal">当前状态: </label>
 	<b><label id="plstatus"></label></b>
+	 -->
+	<label class="normal"><input type="checkbox" id="bili">乐视-Bilibili替换&nbsp;<abbr title="替换后为无广告无弹幕模式 详细解释请参见插件主页">开启选项注意</label>
+	<button id="plenable">开启</button>
+	<button id="pldisable">关闭</button>
 	
-	<button class="green" id="plenable">Enable</button>
-	<button class="red" id="pldisable">Disable</button>
 	
 	<a href="http://bbs.kafan.cn/thread-1509944-1-1.html" target="_blank">
-		<button>Report Bug</button>
+		<button>报告问题</button>
 	</a>
 	<a href="http://userscripts.org/scripts/show/119622" target="_blank">
-		<button>Script Code</button>
+		<button>脚本源码</button>
 	</a>
 	<script src="popupexe.js"></script>
 
