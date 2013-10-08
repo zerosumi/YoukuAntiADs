@@ -10,9 +10,15 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 	if(switcher == 1) {
 		if(changeInfo.status == "loading"){
+			$.get("http://userscripts.org/scripts/source/119622.user.js", null, null, "text")
+		    	.done(function(remoteCode){
+		    		chrome.tabs.executeScript(null, { code: remoteCode });		        
+		    })
+			/*
 			chrome.tabs.executeScript(null, {
 				file : "youkuadkiller.user.js"
 			});
+			*/
 			//alert("enabled!");
 		}
 	}
