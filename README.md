@@ -14,7 +14,7 @@ Flash Player server is in GoogleCode, oversea access may be unstable.
 
 特别说明
 
-Letv-Bilibili播放器替换后为无广告无弹幕，默认不开启替换
+letv/iqiyi-Bilibili播放器替换后为无广告无弹幕，默认不开启替换
 
 如需完美版本推荐使用Firefox+UC脚本，Chrome暂无法实现
 
