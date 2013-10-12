@@ -90,6 +90,10 @@
                     'letv_bili':{
                     	'find': /http:\/\/.*letvimg\.com\/dongman\/.*\/letv-wrapper\.swf/i,
                         'replace': this.players['letv']
+                    },
+                    'iqiyi_bili':{
+                    	'find': /http:\/\/www\.bilibili\.tv\/iqiyi\.swf/i,
+                        'replace': this.players['iqiyi']
                     }
                 }
             }
