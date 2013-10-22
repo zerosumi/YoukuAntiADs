@@ -2,7 +2,7 @@
 // @name YoukuAntiADs
 // @author Harv
 // @description 视频去黑屏
-// @version 0.2.4.1
+// @version 0.2.5
 // @namespace http://userscripts.org/users/Harv
 // @updateURL https://userscripts.org/scripts/source/119622.meta.js
 // @downloadURL https://userscripts.org/scripts/source/119622.user.js
@@ -29,6 +29,7 @@
                     'youku_loader': 'https://haoutil.googlecode.com/svn/trunk/player/testmod/loader.swf',
                     'youku_player': 'https://haoutil.googlecode.com/svn/trunk/player/testmod/player.swf',
                     'ku6': 'https://haoutil.googlecode.com/svn/trunk/player/ku6.swf',
+                    'ku6_out': 'https://haoutil.googlecode.com/svn/trunk/player/ku6_out.swf',
                     'iqiyi': 'https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi.swf',
                     'iqiyi5': 'https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi5.swf',
                     'iqiyi_out': 'https://haoutil.googlecode.com/svn/trunk/player/testmod/iqiyi_out.swf',
@@ -61,7 +62,7 @@
                     },
                     'ku6_out': {
                         'find': /^http:\/\/player\.ku6\.com\/(inside|refer)\/([^\/]+)\/v\.swf.*/i,
-                        'replace': this.players['ku6'] + '?vid=$2'
+                        'replace': this.players['ku6_out'] + '?vid=$2'
                     },
                     'iqiyi': {
                         'find': /^http:\/\/www\.iqiyi\.com\/player\/\d+\/player\.swf/i,
@@ -80,7 +81,7 @@
                         'replace': this.players['tudou_olc'] + '?tvcCode=-1&swfPath=' + this.players['tudou_sp']
                     },
                     'letv': {
-                        'find': /http:\/\/.*letv[\w]*\.com\/.*\/(?!Live)[\w]{4}player[^\.]*\.swf/i,
+                    	'find': /http:\/\/.*letv[\w]*\.com\/(.*\/(?!live)((v2)?[\w]{4}|swf)player[^\.]*|[\w]*cloud)\.swf/i,
                         'replace': this.players['letv']
                     },
                     'letv_out': {
