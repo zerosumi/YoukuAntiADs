@@ -6,7 +6,7 @@ Chrome Extension - Remove ads from Youku, Tudou, Ku6, Letv, iQiyi
 Flash Player server is in GoogleCode, oversea access may be unstable.
 
 ----------------------
-乐视，优酷，土豆，爱奇艺，酷六去广告插件（轻量版）
+乐视，优酷，土豆，爱奇艺，酷六去广告插件
 
 视频播放器在G Code上，连接速度可能会变慢
 
@@ -23,6 +23,8 @@ letv/iqiyi-Bilibili播放器替换后为无广告无弹幕，默认不开启替�
 所有播放器的破解来自15536900
 
 特别感谢OpenGG项目，感谢鲁夫的付出
+
+报告问题：http://www.zerosumi.com/?p=1&lang=zh
 
 本扩展源代码：https://github.com/zerosumi/YoukuAntiADs
 
