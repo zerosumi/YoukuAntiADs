@@ -1,5 +1,16 @@
 $(function() {
-
+	$("#instruction").click(function() {
+		chrome.extension.sendRequest({
+			text : "instruction"
+		});
+		//alert("在后台打开的新页面可能无法替换成功<br>如失效请手动刷新页面");
+	})
+	$("#bwarning").click(function() {
+		chrome.extension.sendRequest({
+			text : "bwarning"
+		});
+		//alert("letv/iqiyi-bilibili替换后为无广告无弹幕模式<br>详细解释请参见插件主页");
+	})
 	$("#plenable").click(function() {
 		chrome.extension.sendRequest({
 			text : "enable"

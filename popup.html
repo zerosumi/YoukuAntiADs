@@ -29,7 +29,7 @@ html body {
 	background-color: #f7f8f9;
 	background-repeat: repeat-x;
 	margin: 0px;
-	/*width: 170px;*/
+	width: 170px;
 	padding: 8px 0px;
 }
 
@@ -45,7 +45,14 @@ button {
 	box-shadow: 0 1px 1px #CCC;
 	-webkit-transition: all .1s;
 }
-
+button.littleleft {
+	width: 66px;
+	margin: 4px 5px 4px 10px;
+}
+button.littleright {
+	width: 66px;
+	margin: 4px 10px 4px 5px;
+}
 #plenable {
 	width: 66px;
 	margin: 4px 5px 4px 10px;
@@ -90,19 +97,23 @@ border-bottom: 1px dotted #999;
 
 <body>
 	<!-- 
-	<label class="normal">当前状态: </label>
-	<b><label id="plstatus"></label></b>
-	 -->
-	<label class="normal"><input type="checkbox" id="bili">乐视/爱奇艺@B站&nbsp;<abbr title="letv/iqiyi-bilibili替换后为无广告无弹幕模式 详细解释请参见插件主页">注意</label>
+	
+	 
+	<label class="normal"><abbr title="在后台打开的新页面可能无法替换成功，如失效请手动刷新页面">使用说明</label>
+	<label class="normal"><abbr title="letv/iqiyi-bilibili替换后为无广告无弹幕模式 详细解释请参见插件主页">B站注意</label>
+	<br>
+	-->
+	<label class="normal"><input type="checkbox" id="bili">乐视/爱奇艺@Bilibili</label>
 	<button id="plenable">开启</button>
 	<button id="pldisable">关闭</button>
+	<button class="littleleft" id="instruction">使用说明</button>
+	<button class="littleright" id = "bwarning">B站注意</button>
 	
-	
-	<a href="http://bbs.kafan.cn/thread-1509944-1-1.html" target="_blank">
-		<button>报告问题</button>
+	<a href="http://www.zerosumi.com/?p=1&lang=zh" target="_blank">
+		<button class="littleleft">报告问题</button>
 	</a>
 	<a href="http://userscripts.org/scripts/show/119622" target="_blank">
-		<button>脚本源码</button>
+		<button class="littleright">脚本源码</button>
 	</a>
 	<script src="popupexe.js"></script>
 
