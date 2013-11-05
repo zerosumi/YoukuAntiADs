@@ -1,7 +1,9 @@
 body {
 	    background-color: #f7f8f9;
-        background-repeat: repeat-x;
-        margin: 0px;
+	    background-image: url(img/backg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0px; 
         min-width: 150px;
         padding: 8px 0px;
         font-size: 100%;
