@@ -2,12 +2,13 @@
     "manifest_version": 2,
     "description":  "__MSG_extDscp__",
     "name":         "__MSG_extName__",
-    "version":      "2.2.1104",
+    "version":      "2.2.1105",
     "default_locale":	"zh_CN",
     "icons": {
 		"16": "icon16.png",
+		"32": "icon32.png",
 		"48": "icon48.png",
-		"128": "icon.png"
+		"128": "icon128.png"
     },
     "permissions": [
 		"activeTab",
@@ -16,7 +17,7 @@
 		"https://*/*"
 	],
     "browser_action": {
-    	"default_icon": "icon.png",
+    	"default_icon": "icon128.png",
 		"default_popup": "popup.html"
     },
     "background": {
