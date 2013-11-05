@@ -1,0 +1,74 @@
+body {
+	    background-color: #f7f8f9;
+        background-repeat: repeat-x;
+        margin: 0px;
+        min-width: 150px;
+        padding: 8px 0px;
+        font-size: 100%;
+}
+div {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", 
+	"Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", 
+	"WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", 
+	"WenQuanYi Zen Hei Sharp", sans-serif;
+	font-size:0.7em;
+	width:170px;
+	margin: 0px auto;
+	text-align:center;
+}
+button {
+	font-family: "Hiragino Sans GB", "Microsoft YaHei", 
+	"Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", 
+	"WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", 
+	"WenQuanYi Zen Hei Sharp", sans-serif;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-appearance: none;
+	width: 150px;
+	height: 30px;
+	margin: 4px 5px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(white),
+		to(#EEE));
+	border: 1px solid #999;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #CCC;
+	-webkit-transition: all .1s;
+	font-size:1em;
+}
+button.littleleft, #plenable {
+	width: 66px;
+	margin: 4px 5px 4px 10px;
+}
+button.littleright, #pldisable {
+	width: 66px;
+	margin: 4px 10px 4px 5px;
+}
+button:hover {
+	background-color: #0080FF;
+	background-image: -webkit-linear-gradient(top, #0080CC, #0080FF);
+	background-repeat: repeat-x;
+	border: 1px solid #065EA1;
+	border-radius: 3px;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, 0 1px 1px
+		#CCC;
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, 0.5) -1px -1px 0px;
+}
+button:active {
+	box-shadow: inset 0 2px 4px 0px rgba(0, 0, 0, 0.15), 0 1px 2px 0px
+		rgba(0, 0, 0, 0.05)
+}
+abbr {
+	cursor: help;
+	border-bottom: 1px dotted #999;
+}
+#pldisable:hover, .disabled{
+	background-color: #FF0033;
+	background-image: -webkit-linear-gradient(top, #FF0000, #FF0033);
+}
+#plenable:hover, .enabled{
+	background-color: #00cc77;
+	background-image: -webkit-linear-gradient(top, #00cc44, #00cc77);
+}
