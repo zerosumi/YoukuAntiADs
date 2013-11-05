@@ -1,0 +1,55 @@
+{
+	"extName":{
+		"message": "绿色播放器",
+		"description": "Extension name."
+	},
+	"extDscp":{
+		"message": "开源的乐视，优酷，土豆，爱奇艺，酷六去广告插件",
+		"description": "Extension description."
+	},
+	"extInstruction":{
+		"message": "在后台打开的新页面可能无法替换成功\n如失效请手动刷新该页面",
+		"description": "Instruction alert box."
+	},
+	"extBWarning":{
+		"message": "letv/iqiyi-bilibili替换后为无广告无弹幕模式\n详细解释请参见插件主页",
+		"description": "Bilibili alert box."
+	},
+	"buttonInst":{
+		"message": "使用说明",
+		"description": "Usage instruction."
+	},
+	"buttonBWarn":{
+		"message": "B站注意",
+		"description": "Special guide for bilibili."
+	},
+	"buttonEnable":{
+		"message": "开启",
+		"description": "Extension enable."
+	},
+	"buttonDisable":{
+		"message": "关闭",
+		"description": "Extension disable."
+	},
+	"buttonReport":{
+		"message": "报告问题",
+		"description": "Report bug."
+	},
+	"buttonScrpcode":{
+		"message": "脚本源码",
+		"description": "Script sourcecode."
+	},	
+	"biliOption":{
+		"message": "乐视/爱奇艺@Bilibili",
+		"description": "Bilibili option."
+	}
+
+
+
+
+
+
+
+
+
+}

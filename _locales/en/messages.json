@@ -1,0 +1,55 @@
+{
+	"extName":{
+		"message": "Green.Player.Lite",
+		"description": "Extension name."
+	},
+	"extDscp":{
+		"message": "Open source remove ads plug-in for letv,youku,tudou,iqiyi,ku6",
+		"description": "Extension description."
+	},
+	"extInstruction":{
+		"message": "The background opened pages may still contain ads\nPlease refresh manually.",
+		"description": "Instruction alert box."
+	},
+	"extBWarning":{
+		"message": "If letv/iqiyi@bilibili option is checked, there will be no danmaku in new flash player.",
+		"description": "Bilibili alert box."
+	},
+	"buttonInst":{
+		"message": "Notice",
+		"description": "Usage instruction."
+	},
+	"buttonBWarn":{
+		"message": "BiliWarn",
+		"description": "Special guide for bilibili."
+	},
+	"buttonEnable":{
+		"message": "Enable",
+		"description": "Extension enable."
+	},
+	"buttonDisable":{
+		"message": "Disable",
+		"description": "Extension disable."
+	},
+	"buttonReport":{
+		"message": "Report",
+		"description": "Report bug."
+	},
+	"buttonScrpcode":{
+		"message": "SrcCode",
+		"description": "Script sourcecode."
+	},	
+	"biliOption":{
+		"message": "Letv/iQiyi@Bilibili",
+		"description": "Bilibili option."
+	}
+
+
+
+
+
+
+
+
+
+}

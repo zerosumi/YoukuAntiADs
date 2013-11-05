@@ -20,6 +20,15 @@ function setButtonStatus() {
 }
 $(document).ready(function() {
 	setButtonStatus();
+	//i18n
+	$('#instruction').html(chrome.i18n.getMessage('buttonInst'));
+	$('#bwarning').html(chrome.i18n.getMessage('buttonBWarn'));
+	$('#plenable').html(chrome.i18n.getMessage('buttonEnable'));
+	$('#pldisable').html(chrome.i18n.getMessage('buttonDisable'));
+	$('#reportbug').html(chrome.i18n.getMessage('buttonReport'));
+	$('#scriptcode').html(chrome.i18n.getMessage('buttonScrpcode'));
+	$('#bilioption').html(chrome.i18n.getMessage('biliOption'));
+	
 	
 	$("#instruction").click(function() {
 		chrome.extension.sendRequest({

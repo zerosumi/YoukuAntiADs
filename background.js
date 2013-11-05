@@ -85,9 +85,9 @@ chrome.extension.onRequest.addListener(function(msg, sender, sendResponse) {
 	} else if (msg.text == "biliDisable") {
 		biliStatus = false;
 	} else if (msg.text == "instruction") {
-		alert("在后台打开的新页面可能无法替换成功\n如失效请手动刷新该页面");
+		alert(chrome.i18n.getMessage("extInstruction"));
 	} else if (msg.text == "bwarning") {
-		alert("letv/iqiyi-bilibili替换后为无广告无弹幕模式\n详细解释请参见插件主页");
+		alert(chrome.i18n.getMessage("extBWarning"));
 	} else {
 		alert("ERROR!");
 	}

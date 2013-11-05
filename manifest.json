@@ -1,8 +1,9 @@
 {
     "manifest_version": 2,
-    "description":  "开源的乐视，优酷，土豆，爱奇艺，酷六去广告插件",
-    "name":         "Green.Player.Lite",
-    "version":      "2.1.1030",
+    "description":  "__MSG_extDscp__",
+    "name":         "__MSG_extName__",
+    "version":      "2.2.1104",
+    "default_locale":	"zh_CN",
     "icons": {
 		"16": "icon16.png",
 		"48": "icon48.png",
