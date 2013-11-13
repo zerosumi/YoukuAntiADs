@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "description":  "__MSG_extDscp__",
     "name":         "__MSG_extName__",
-    "version":      "2.2.1105",
+    "version":      "2.2.1106",
     "default_locale":	"zh_CN",
     "icons": {
 		"16": "img/icon16.png",
